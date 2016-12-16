@@ -6,6 +6,11 @@
 !*.lib
 
 
+# Do ingore
+_Debug/
+_Release/
+
+
 # User-specific files
 *.suo
 *.user
