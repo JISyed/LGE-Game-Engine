@@ -9,6 +9,15 @@
 # Do ingore
 _Debug/
 _Release/
+DataPackager/*.lgepkg
+MetaAppender/*.lge
+ConvertersDemo/*.lge
+ConvertersDemo/*.lgepkg
+ConvertersDemo/*.vrt
+ConvertersDemo/*.tri
+ConvertersDemo/*.tex
+ConvertersDemo/*.sph
+ConvertersDemo/*.anim
 
 
 # User-specific files
