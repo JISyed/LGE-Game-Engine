@@ -9,8 +9,8 @@
 # Do ingore
 _Debug/
 _Release/
-DataPackager/*.lgepkg
-MetaAppender/*.lge
+DataPackager/DataPackager/*.lgepkg
+MetaAppender/MetaAppender/*.lge
 ConvertersDemo/*.lge
 ConvertersDemo/*.lgepkg
 ConvertersDemo/*.vrt
