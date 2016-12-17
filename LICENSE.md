@@ -1,3 +1,18 @@
+**Notice:** *LGE uses 3rd party libraries and resources that are NOT covered in this license. 
+They include:*
+
+ - *Art assets in the `/ConvertersDemo` and `/LittleGameEngine/res` folder*
+ - *Shaders in the `/LittleGameEngine/res` folder*
+ - *`VitorToLgeConverter.exe`, which was written by Vitor Fernandes and tweaked by me*
+ - *The unit tests in `/lib_projects/` were written by [Edward Keenan](http://www.cdm.depaul.edu/about/pages/people/facultyinfo.aspx?fid=562)*
+ - *[GLFW](http://www.glfw.org/) static libraries in the `/extern_libs/` folder*
+ - *[SB6](https://github.com/openglsuperbible/sb6code) static libraries in the `/extern_libs/` folder*
+ - *[YAML-CPP](https://github.com/jbeder/yaml-cpp) static libraries in the `/extern_libs/` folder*
+
+*These libraries and resources have their own respective licenses.*
+
+------
+
 MIT License
 
 Copyright (c) 2016 Jibran Syed
