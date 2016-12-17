@@ -1,0 +1,43 @@
+# Material definition file for Little Game Engine (LGE)
+#   Names are based off enum values and need to be converted in the engine
+#   PolygonMode can either be "FullFace" or "Wireframe"
+#   Uniform::Type can be one of the following
+#       - Vector4
+#       - Float
+#       - SignedInt
+#   Uniform::Name can be one of the following
+#       - TintColor
+#       - LightPosition
+#       - LightDirection
+#       - LightColor
+#       - TimeFloat
+#       - SpecularColor
+#       - SpecularPowerFloat
+#
+---
+LGE-Material:
+    Name:           Material3
+    PolygonMode:    FullFace
+    Shader:         BlinnPhong
+    Uniforms:
+        - Uniform:
+            Name:   TintColor
+            Type:   Vector4
+            Value:  [0.0, 0.5, 1.0, 1.0]
+        - Uniform:
+            Name:   SpecularColor
+            Type:   Vector4
+            Value:  [1.0, 1.0, 1.0, 1.0]
+        - Uniform:
+            Name:   SpecularPowerFloat
+            Type:   Float
+            Value:  100.0
+        - Uniform:
+            Name:   LightPosition
+            Type:   Vector4
+            Value:  [0.0, 0.0, 0.0]
+        - Uniform:
+            Name:   LightColor
+            Type:   Vector4
+            Value:  [1.0, 1.0, 1.0, 1.0]
+...

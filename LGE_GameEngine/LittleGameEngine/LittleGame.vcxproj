@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LittleGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)_$(Configuration)\Intermediate\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)_$(Configuration)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\extern_libs\GLFW\include;$(SolutionDir)\..\extern_libs\SB6\include;$(SolutionDir)\..\extern_libs\MathEngine\include;$(SolutionDir)\..\extern_libs\YAML-CPP\include;$(SolutionDir)\..\extern_libs\FileLibrary\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\extern_libs\GLFW\include;$(SolutionDir)\..\extern_libs\SB6\include;$(SolutionDir)\..\extern_libs\MathEngine\include;$(SolutionDir)\..\extern_libs\YAML-CPP\include;$(SolutionDir)\..\extern_libs\FileLibrary\include</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AbstractDataTypes\Color.cpp" />
+    <ClCompile Include="src\AbstractDataTypes\CString.cpp" />
+    <ClCompile Include="src\AbstractDataTypes\GenericList.cpp" />
+    <ClCompile Include="src\AbstractDataTypes\GenericListIterator.cpp" />
+    <ClCompile Include="src\AbstractDataTypes\GenericListNode.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationClip.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationClipList.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationClipPlayback.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationClipSetter.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationController.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationJoint.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationJointLink.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationMixPlayback.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationPlayback.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationPlaybackList.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationSet.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationSetRegistry.cpp" />
+    <ClCompile Include="src\AnimationSystem\AnimationSkeleton.cpp" />
+    <ClCompile Include="src\AnimationSystem\JointHierarchyTable.cpp" />
+    <ClCompile Include="src\AnimationSystem\JointNameTable.cpp" />
+    <ClCompile Include="src\AnimationSystem\KeyFrame.cpp" />
+    <ClCompile Include="src\CollisionSystem\BoundingSphere.cpp" />
+    <ClCompile Include="src\EngineFoundation\Engine.cpp" />
+    <ClCompile Include="src\EngineFoundation\Game.cpp" />
+    <ClCompile Include="src\EngineFoundation\Main.cpp" />
+    <ClCompile Include="src\EngineUtilities\IdGenerator.cpp" />
+    <ClCompile Include="src\EngineUtilities\Screen.cpp" />
+    <ClCompile Include="src\EngineUtilities\Time.cpp" />
+    <ClCompile Include="src\GameObjectSystem\GameObject.cpp" />
+    <ClCompile Include="src\GameObjectSystem\GameObjectBehavior.cpp" />
+    <ClCompile Include="src\GameObjectSystem\GameObjectManager.cpp" />
+    <ClCompile Include="src\GameObjectSystem\OrbitBehavior.cpp" />
+    <ClCompile Include="src\GameObjectSystem\SpinBehavior.cpp" />
+    <ClCompile Include="src\GameObjectSystem\Transform.cpp" />
+    <ClCompile Include="src\GraphicsSystem\Camera.cpp" />
+    <ClCompile Include="src\GraphicsSystem\CameraController.cpp" />
+    <ClCompile Include="src\GraphicsSystem\CameraManager.cpp" />
+    <ClCompile Include="src\GraphicsSystem\CameraProjectionData.cpp" />
+    <ClCompile Include="src\GraphicsSystem\CameraTransformAdapter.cpp" />
+    <ClCompile Include="src\GraphicsSystem\ErrorShaderHelper.cpp" />
+    <ClCompile Include="src\GraphicsSystem\GpuBuffer.cpp" />
+    <ClCompile Include="src\GraphicsSystem\GpuBufferVao.cpp" />
+    <ClCompile Include="src\GraphicsSystem\GpuProgram.cpp" />
+    <ClCompile Include="src\GraphicsSystem\ImageBuffer.cpp" />
+    <ClCompile Include="src\GraphicsSystem\Material.cpp" />
+    <ClCompile Include="src\GraphicsSystem\MaterialRegistry.cpp" />
+    <ClCompile Include="src\GraphicsSystem\MaterialTextureLink.cpp" />
+    <ClCompile Include="src\GraphicsSystem\MaterialUniform.cpp" />
+    <ClCompile Include="src\GraphicsSystem\Mesh.cpp" />
+    <ClCompile Include="src\GraphicsSystem\MeshRegistry.cpp" />
+    <ClCompile Include="src\GraphicsSystem\MeshRenderer.cpp" />
+    <ClCompile Include="src\GraphicsSystem\NullMeshRenderer.cpp" />
+    <ClCompile Include="src\GraphicsSystem\PolygonMode.cpp" />
+    <ClCompile Include="src\GraphicsSystem\PolygonModeFullFace.cpp" />
+    <ClCompile Include="src\GraphicsSystem\PolygonModeWireframe.cpp" />
+    <ClCompile Include="src\GraphicsSystem\Shader.cpp" />
+    <ClCompile Include="src\GraphicsSystem\ShaderRegistry.cpp" />
+    <ClCompile Include="src\GraphicsSystem\ShaderUniformHandle.cpp" />
+    <ClCompile Include="src\GraphicsSystem\SpheroidGenerator.cpp" />
+    <ClCompile Include="src\GraphicsSystem\Texture.cpp" />
+    <ClCompile Include="src\GraphicsSystem\TextureRegistry.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformData.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataFloat.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataInt.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataMatrix.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataMatrixArray.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataTextureUnit.cpp" />
+    <ClCompile Include="src\GraphicsSystem\UniformDataVect.cpp" />
+    <ClCompile Include="src\InputSystem\Keyboard.cpp" />
+    <ClCompile Include="src\InputSystem\Mouse.cpp" />
+    <ClCompile Include="src\PCS\PCSNode.cpp" />
+    <ClCompile Include="src\PCS\PCSTree.cpp" />
+    <ClCompile Include="src\PCS\PCSTreeForwardIterator.cpp" />
+    <ClCompile Include="src\PCS\PCSTreeReverseIterator.cpp" />
+    <ClCompile Include="src\TimeSystem\Timer.cpp" />
+    <ClCompile Include="src\TimeSystem\Timer_win32.cpp" />
+    <ClCompile Include="src\TimeSystem\TimeUnit.cpp" />
+    <ClCompile Include="src\UnpackagerSystem\PackageChunkHeader.cpp" />
+    <ClCompile Include="src\UnpackagerSystem\PackageHeader.cpp" />
+    <ClCompile Include="src\UnpackagerSystem\ResourceUnpacker.cpp" />
+    <ClCompile Include="src\YamlSystem\YamlCameraLoader.cpp" />
+    <ClCompile Include="src\YamlSystem\YamlMaterialLoader.cpp" />
+    <ClCompile Include="src\YamlSystem\YamlUtilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Debug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Release.lib">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Debug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Release.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Debug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Release.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Debug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Release.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\YAML-CPP\lib\libyaml-cppmt.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\extern_libs\YAML-CPP\lib\libyaml-cppmtd.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extern_libs\FileLibrary\include\File.h" />
+    <ClInclude Include="..\extern_libs\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Align16.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Constants.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Enum.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\MathApp.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\MathEngine.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Matrix.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Quat.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\QuatApp.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Util.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\Vect.h" />
+    <ClInclude Include="..\extern_libs\MathEngine\include\VectApp.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\arcball.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\object.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\sb6.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\shader.h" />
+    <ClInclude Include="..\extern_libs\SB6\include\vmath.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\anchor.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\binary.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\contrib\anchordict.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\contrib\graphbuilder.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\dll.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitfromevents.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitter.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitterdef.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emittermanip.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitterstyle.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\eventhandler.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\exceptions.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\mark.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\convert.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\bool_type.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\impl.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\iterator.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\iterator_fwd.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\memory.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_data.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_iterator.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_ref.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\emit.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\impl.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\iterator.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\node.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\parse.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\ptr.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\type.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\noncopyable.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\null.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\ostream_wrapper.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\parser.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\stlemitter.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\traits.h" />
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\yaml.h" />
+    <ClInclude Include="src\AbstractDataTypes\Color.h" />
+    <ClInclude Include="src\AbstractDataTypes\CString.h" />
+    <ClInclude Include="src\AbstractDataTypes\GenericList.h" />
+    <ClInclude Include="src\AbstractDataTypes\GenericListIterator.h" />
+    <ClInclude Include="src\AbstractDataTypes\GenericListNode.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationClip.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationClipList.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationClipPlayback.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationClipSetter.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationController.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationJoint.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationJointLink.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationMixPlayback.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationPlayback.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationPlaybackList.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationSet.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationSetRegistry.h" />
+    <ClInclude Include="src\AnimationSystem\AnimationSkeleton.h" />
+    <ClInclude Include="src\AnimationSystem\JointHierarchyTable.h" />
+    <ClInclude Include="src\AnimationSystem\JointNameTable.h" />
+    <ClInclude Include="src\AnimationSystem\KeyFrame.h" />
+    <ClInclude Include="src\CollisionSystem\BoundingSphere.h" />
+    <ClInclude Include="src\EngineFoundation\Engine.h" />
+    <ClInclude Include="src\EngineFoundation\Game.h" />
+    <ClInclude Include="src\EngineFoundation\ResourseRegistry.h" />
+    <ClInclude Include="src\EngineUtilities\IdGenerator.h" />
+    <ClInclude Include="src\EngineUtilities\Screen.h" />
+    <ClInclude Include="src\EngineUtilities\Time.h" />
+    <ClInclude Include="src\GameObjectSystem\GameObject.h" />
+    <ClInclude Include="src\GameObjectSystem\GameObjectBehavior.h" />
+    <ClInclude Include="src\GameObjectSystem\GameObjectManager.h" />
+    <ClInclude Include="src\GameObjectSystem\OrbitBehavior.h" />
+    <ClInclude Include="src\GameObjectSystem\SpinBehavior.h" />
+    <ClInclude Include="src\GameObjectSystem\Transform.h" />
+    <ClInclude Include="src\GraphicsSystem\Camera.h" />
+    <ClInclude Include="src\GraphicsSystem\CameraController.h" />
+    <ClInclude Include="src\GraphicsSystem\CameraManager.h" />
+    <ClInclude Include="src\GraphicsSystem\CameraProjectionData.h" />
+    <ClInclude Include="src\GraphicsSystem\CameraTransformAdapter.h" />
+    <ClInclude Include="src\GraphicsSystem\enumTexelFormat.h" />
+    <ClInclude Include="src\GraphicsSystem\enumTextureUnit.h" />
+    <ClInclude Include="src\GraphicsSystem\ErrorShaderHelper.h" />
+    <ClInclude Include="src\GraphicsSystem\GpuBuffer.h" />
+    <ClInclude Include="src\GraphicsSystem\GpuBufferVao.h" />
+    <ClInclude Include="src\GraphicsSystem\GpuProgram.h" />
+    <ClInclude Include="src\GraphicsSystem\ImageBuffer.h" />
+    <ClInclude Include="src\GraphicsSystem\IRenderable.h" />
+    <ClInclude Include="src\GraphicsSystem\Material.h" />
+    <ClInclude Include="src\GraphicsSystem\MaterialRegistry.h" />
+    <ClInclude Include="src\GraphicsSystem\MaterialTextureLink.h" />
+    <ClInclude Include="src\GraphicsSystem\MaterialUniform.h" />
+    <ClInclude Include="src\GraphicsSystem\Mesh.h" />
+    <ClInclude Include="src\GraphicsSystem\MeshFileHeader.h" />
+    <ClInclude Include="src\GraphicsSystem\MeshRegistry.h" />
+    <ClInclude Include="src\GraphicsSystem\MeshRenderer.h" />
+    <ClInclude Include="src\GraphicsSystem\NullMeshRenderer.h" />
+    <ClInclude Include="src\GraphicsSystem\PolygonMode.h" />
+    <ClInclude Include="src\GraphicsSystem\PolygonModeFullFace.h" />
+    <ClInclude Include="src\GraphicsSystem\PolygonModeWireframe.h" />
+    <ClInclude Include="src\GraphicsSystem\Shader.h" />
+    <ClInclude Include="src\GraphicsSystem\ShaderRegistry.h" />
+    <ClInclude Include="src\GraphicsSystem\ShaderUniformHandle.h" />
+    <ClInclude Include="src\GraphicsSystem\SpheroidGenerator.h" />
+    <ClInclude Include="src\GraphicsSystem\Texture.h" />
+    <ClInclude Include="src\GraphicsSystem\TextureRegistry.h" />
+    <ClInclude Include="src\GraphicsSystem\TriangleData.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformData.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataFloat.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataInt.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataMatrix.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataMatrixArray.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataTextureUnit.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformDataVect.h" />
+    <ClInclude Include="src\GraphicsSystem\UniformNameHelper.h" />
+    <ClInclude Include="src\GraphicsSystem\VertexData.h" />
+    <ClInclude Include="src\InputSystem\enumKey.h" />
+    <ClInclude Include="src\InputSystem\enumMouseButton.h" />
+    <ClInclude Include="src\InputSystem\Keyboard.h" />
+    <ClInclude Include="src\InputSystem\Mouse.h" />
+    <ClInclude Include="src\PCS\PCSNode.h" />
+    <ClInclude Include="src\PCS\PCSTree.h" />
+    <ClInclude Include="src\PCS\PCSTreeForwardIterator.h" />
+    <ClInclude Include="src\PCS\PCSTreeIterator.h" />
+    <ClInclude Include="src\PCS\PCSTreeReverseIterator.h" />
+    <ClInclude Include="src\TimeSystem\Timer.h" />
+    <ClInclude Include="src\TimeSystem\TimeUnit.h" />
+    <ClInclude Include="src\UnpackagerSystem\AnimationHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\ClipHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\EboHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\enumPackageChunkType.h" />
+    <ClInclude Include="src\UnpackagerSystem\enumUseUnpackerType.h" />
+    <ClInclude Include="src\UnpackagerSystem\PackageChunkHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\PackageHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\ResourceUnpacker.h" />
+    <ClInclude Include="src\UnpackagerSystem\Str64.h" />
+    <ClInclude Include="src\UnpackagerSystem\TextureHeader.h" />
+    <ClInclude Include="src\UnpackagerSystem\VboHeader.h" />
+    <ClInclude Include="src\YamlSystem\enumUseYamlType.h" />
+    <ClInclude Include="src\YamlSystem\YamlCameraLoader.h" />
+    <ClInclude Include="src\YamlSystem\YamlMaterialLoader.h" />
+    <ClInclude Include="src\YamlSystem\YamlMaterialNameConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlPolygonModeTypeConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlShaderNameConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlTextureNameConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlUniformNameConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlUniformTypeConverter.h" />
+    <ClInclude Include="src\YamlSystem\YamlUtilities.h" />
+    <ClInclude Include="src\YamlSystem\YamlVector4Converter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cameras\lge_all_cameras.yml" />
+    <None Include="res\materials\mat_astroboy.yml" />
+    <None Include="res\materials\mat_buggy.yml" />
+    <None Include="res\materials\mat_duckweed.yml" />
+    <None Include="res\materials\mat_humanoid.yml" />
+    <None Include="res\materials\mat_mario_ground.yml" />
+    <None Include="res\materials\mat_rocks.yml" />
+    <None Include="res\materials\mat_shiny_phong.yml" />
+    <None Include="res\materials\mat_space_frigate.yml" />
+    <None Include="res\materials\mat_teddy_bear.yml" />
+    <None Include="res\materials\mat_vertex_rainbow.yml" />
+    <None Include="res\materials\mat_warbear_brown.yml" />
+    <None Include="res\materials\mat_warbear_polar.yml" />
+    <None Include="res\shaders\blinnPhongColor.fs.glsl" />
+    <None Include="res\shaders\blinnPhongColor.vs.glsl" />
+    <None Include="res\shaders\constantColor.fs.glsl" />
+    <None Include="res\shaders\constantColor.vs.glsl" />
+    <None Include="res\shaders\constantTexture.fs.glsl" />
+    <None Include="res\shaders\constantTexture.vs.glsl" />
+    <None Include="res\shaders\diffuseTexturePointLight.fs.glsl" />
+    <None Include="res\shaders\diffuseTexturePointLight.vs.glsl" />
+    <None Include="res\shaders\jointToLocalMat.ps.glsl" />
+    <None Include="res\shaders\localToGlobalMat.ps.glsl" />
+    <None Include="res\shaders\mixer.ps.glsl" />
+    <None Include="res\shaders\normalTextureDiffuse.fs.glsl" />
+    <None Include="res\shaders\normalTextureDiffuse.vs.glsl" />
+    <None Include="res\shaders\normalTextureSpecular.fs.glsl" />
+    <None Include="res\shaders\normalTextureSpecular.vs.glsl" />
+    <None Include="res\shaders\skinnedTextureLight.fs.glsl" />
+    <None Include="res\shaders\skinnedTextureLight.vs.glsl" />
+    <None Include="res\shaders\vertRainbow.fs.glsl" />
+    <None Include="res\shaders\vertRainbow.vs.glsl" />
+    <None Include="src\GraphicsSystem\GraphicsSystemDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

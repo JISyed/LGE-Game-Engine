@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="-&gt;">
+    <Position X="16.529" Y="10.632" Height="0.351" Width="0.7" />
+  </Comment>
+  <Comment CommentText="-&gt;">
+    <Position X="16.541" Y="8.111" Height="0.351" Width="0.7" />
+  </Comment>
+  <Class Name="lge::MeshRenderer">
+    <Position X="9.75" Y="6" Width="1.75" />
+    <Members>
+      <Method Name="~MeshRenderer" Hidden="true" />
+      <Method Name="MeshRenderer" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+      <Method Name="RestoreState" Hidden="true" />
+      <Method Name="SetGpuData" Hidden="true" />
+      <Method Name="SetState" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="lge::IRenderable" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="5.373" />
+        <Point X="10.75" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AICABAAAAAAAEAAMAAAAAAEAAAAAAAAEABAAQAIAgAA=</HashCode>
+      <FileName>src\GraphicsSystem\MeshRenderer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sharedMaterial" />
+      <Field Name="sharedMesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::IRenderable">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>src\GraphicsSystem\IRenderable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::Mesh">
+    <Position X="14.25" Y="3.75" Width="2" />
+    <Members>
+      <Method Name="~Mesh" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="Mesh" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="s_idGen" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACIAIAAEAAGgAIAAAAAAAAAAEgAAQAQAggAIAAAA=</HashCode>
+      <FileName>src\GraphicsSystem\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::Shader">
+    <Position X="27" Y="9" Width="2" />
+    <Members>
+      <Method Name="~Shader" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="s_idGen" Hidden="true" />
+      <Method Name="Shader" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QJAAAAAAAAAAAAgAAAUBAQAAAAAEAAQQBAAgABIAAQA=</HashCode>
+      <FileName>src\GraphicsSystem\Shader.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uniforms" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::GameObject">
+    <Position X="6.5" Y="5.25" Width="2.25" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Field Name="ID" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="s_idGen" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="lge::PCSNode" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="4.562" />
+        <Point X="7.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAkggACABACAAAAAAEAAAEAAAgAIIABAA=</HashCode>
+      <FileName>src\GameObjectSystem\GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="meshRenderer" />
+      <Field Name="transform" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::Camera">
+    <Position X="6.5" Y="9" Width="2" />
+    <Members>
+      <Method Name="~Camera" Hidden="true" />
+      <Method Name="CalculateProjection" Hidden="true" />
+      <Method Name="Camera" Hidden="true" />
+      <Field Name="s_idGen" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQCAQAQACAAgAgAUIFAAhAIAAAAAAAQAAEhAAIAAAI=</HashCode>
+      <FileName>src\GraphicsSystem\Camera.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cameraTransform" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::Material">
+    <Position X="14.25" Y="7.5" Width="2.25" />
+    <Members>
+      <Field Name="s_idGen" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAAEAAgAABEQAAgAgCAEAAAAAAAAgBoACAA=</HashCode>
+      <FileName>src\GraphicsSystem\Material.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="targetShader" />
+      <Field Name="polygonRenderingMode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::PolygonMode">
+    <Position X="11" Y="10.25" Width="1.5" />
+    <Members>
+      <Method Name="~PolygonMode" Hidden="true" />
+      <Method Name="PolygonMode" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAAAAAAAAAGAAAgAAAAAAAA=</HashCode>
+      <FileName>src\GraphicsSystem\PolygonMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::PolygonModeFullFace">
+    <Position X="9.5" Y="12.25" Width="2" />
+    <Members>
+      <Method Name="~PolygonModeFullFace" Hidden="true" />
+      <Method Name="PolygonModeFullFace" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAABAAABAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>src\GraphicsSystem\PolygonModeFullFace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::PolygonModeWireframe">
+    <Position X="12" Y="12.25" Width="2" />
+    <Members>
+      <Method Name="~PolygonModeWireframe" Hidden="true" />
+      <Method Name="PolygonModeWireframe" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAQAAAAAQAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>src\GraphicsSystem\PolygonModeWireframe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::PCSNode" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAgQgAAAAAABgCACGAAACIAgEiAZAwAKkAEBAIAA=</HashCode>
+      <FileName>src\PCS\PCSNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::Transform">
+    <Position X="0.5" Y="6.75" Width="2.25" />
+    <Members>
+      <Method Name="~Transform" Hidden="true" />
+      <Method Name="GetEulerAnglesCopy" Hidden="true" />
+      <Method Name="GetPositionCopy" Hidden="true" />
+      <Method Name="GetScaleCopy" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Transform" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEAAjAQACQAAAAAAAkCMAQCAAAAAgAAIAAgAgEAwIA=</HashCode>
+      <FileName>src\GameObjectSystem\Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::CameraTransformAdapter">
+    <Position X="3.5" Y="9" Width="2" />
+    <Members>
+      <Method Name="~CameraTransformAdapter" Hidden="true" />
+      <Method Name="CameraTransformAdapter" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAACQAAAAAQAEAUAAAAAAAAgAAAAAgAAAAQAA=</HashCode>
+      <FileName>src\GraphicsSystem\CameraTransformAdapter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="theTransform" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::UniformData">
+    <Position X="20.5" Y="10.5" Width="2.25" />
+    <Members>
+      <Method Name="~UniformData" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="UniformData" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAIAAAAAAAAAAABAAABAiAAAACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::MaterialUniform">
+    <Position X="17.25" Y="10" Width="2.5" />
+    <Members>
+      <Method Name="~MaterialUniform" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="MaterialUniform" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgBAAAAEAAAAAAAAAAAAAAAFAAACAAA0AAIABAA=</HashCode>
+      <FileName>src\GraphicsSystem\MaterialUniform.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::ShaderUniformHandle">
+    <Position X="23.5" Y="10" Width="2.5" />
+    <Members>
+      <Method Name="~ShaderUniformHandle" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ShaderUniformHandle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAAAAAAAAAAgAAEAAAAAAAkAAEABAA=</HashCode>
+      <FileName>src\GraphicsSystem\ShaderUniformHandle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::UniformDataFloat" Collapsed="true">
+    <Position X="16.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAgIAAAAAAAAAAAAAAAAAQIAAACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformDataFloat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::UniformDataInt" Collapsed="true">
+    <Position X="22.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAKAAAAAAAAAAAAAAAAQQAAAACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformDataInt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::UniformDataMatrix" Collapsed="true">
+    <Position X="18.5" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAIACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformDataMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::UniformDataTextureUnit" Collapsed="true">
+    <Position X="20.5" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACIAAAAAAAAAAAIAAAAAQAAAACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformDataTextureUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::UniformDataVect" Collapsed="true">
+    <Position X="24.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACBAAAIAAAAAAAAAAAAAAAAAQAAAACAA=</HashCode>
+      <FileName>src\GraphicsSystem\UniformDataVect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lge::MaterialTextureLink">
+    <Position X="17.25" Y="7" Width="1.75" />
+    <Members>
+      <Method Name="~MaterialTextureLink" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="MaterialTextureLink" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAQgAAAAAAAACAAAQAgAACgAAIAEAA=</HashCode>
+      <FileName>src\GraphicsSystem\MaterialTextureLink.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="linkedTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lge::Texture">
+    <Position X="20.25" Y="5.75" Width="2" />
+    <Members>
+      <Method Name="~Texture" Hidden="true" />
+      <Method Name="GetId" Hidden="true" />
+      <Method Name="MapTypeToName" Hidden="true" />
+      <Method Name="MapTypeToTextureUnit" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="s_id_gen" Hidden="true" />
+      <Method Name="Texture" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIIAAgAIAAhAACAAHAAABAAABEAAAgAAKgAAIBAAA=</HashCode>
+      <FileName>src\GraphicsSystem\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

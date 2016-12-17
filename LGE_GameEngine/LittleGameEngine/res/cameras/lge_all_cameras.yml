@@ -1,0 +1,31 @@
+# Camera collection definition file for Little Game Engine (LGE)
+#
+#    Multiple cameras can be defined in the same file as separate YAML documents
+#    All Vector4's are assumed to be Vector3's with w = 1
+#    FOV is HALF of the y-field-of-view angle in degrees
+#    Euler Angles are in radians, not degrees!
+#    Only one camera can be active at a time. The last declared will be active
+#
+---
+LGE-Camera:
+    IsActive:       true
+    OrbitDistance:  5.0
+    Transform:
+        Position:       [0.0, 3.0, 10.0]
+        EulerAngles:    [0.0, 0.0, 0.0]
+    Projection:
+        FOV:            50.0
+        NearClip:       0.1
+        FarClip:        100.0
+---
+LGE-Camera:
+    IsActive:       false
+    OrbitDistance:  5.0
+    Transform:
+        Position:       [-3.0, 50.0, -12.0]
+        EulerAngles:    [-1.5707963268, 0.0, 0.0]
+    Projection:
+        FOV:            50.0
+        NearClip:       0.1
+        FarClip:        1000.0
+...

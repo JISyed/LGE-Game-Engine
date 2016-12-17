@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Matrix_unary.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_AddSub.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Bracket.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Constructor.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Functions.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Inverse.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Multiply.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Scale.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_set.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Special.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_AddSub.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_unary.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Boolean.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Bracket.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Constructors.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Functions.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Matrix.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Scale.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Set.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo.cpp">
+      <Filter>Tests\General</Filter>
+    </ClCompile>
+    <ClCompile Include="MathEngineTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Accessors.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Accessor.cpp">
+      <Filter>Tests\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect_Start_Here.cpp">
+      <Filter>Tests\Vect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\Failure.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\SimpleString.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\Test.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\TestRegistry.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\TestResult.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\UnitTest.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="VectApp_Lerp.cpp">
+      <Filter>Tests\VectApp</Filter>
+    </ClCompile>
+    <ClCompile Include="QuatApp_Slerp.cpp">
+      <Filter>Tests\QuatApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_AddSubMultDiv.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_Boolean.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_Constructor.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_Functions.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_Proxy.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Quat_SetGet.cpp">
+      <Filter>Tests\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\output.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\Timer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{6676ef46-fb6e-4434-8e61-70ca44ea5a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Matrix">
+      <UniqueIdentifier>{5c2ce7c0-d2ea-47a5-8522-36ba9a057240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Vect">
+      <UniqueIdentifier>{b9afb0a1-a491-4acd-a56a-034b18a01105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\General">
+      <UniqueIdentifier>{bd64d782-7595-4ab3-89de-2d3e9aef6334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{209a56c6-4a41-432e-914a-313ea5f6212a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Quat">
+      <UniqueIdentifier>{b22d5490-562f-4012-a2da-1842918f37ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\QuatApp">
+      <UniqueIdentifier>{e06033dd-2efd-482b-99eb-16bc25a0eccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\VectApp">
+      <UniqueIdentifier>{a94f1330-4e0a-48f3-ba88-f2414d47eb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{a59c6250-c044-48de-825b-565c4081ab7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UnitTest\SimpleString.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\TestRegistry.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\UnitTest.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\output.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\Timer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

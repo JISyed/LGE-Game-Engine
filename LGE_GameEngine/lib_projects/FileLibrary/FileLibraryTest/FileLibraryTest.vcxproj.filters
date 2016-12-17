@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Test functions %28do not touch%29">
+      <UniqueIdentifier>{d4ca091a-0d3e-4563-a268-e8f9c853475d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Unit Test %28do not touch%29">
+      <UniqueIdentifier>{25c0e151-9c90-416c-ab13-cd1a7451a855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7bf45050-18c2-4a65-962f-3775ccb8e2cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="File_Basics_Test.cpp">
+      <Filter>_Test functions %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\Failure.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\SimpleString.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\Test.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\TestRegistry.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\TestResult.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest\UnitTest.cpp">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UnitTest\SimpleString.h">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\TestRegistry.h">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest\UnitTest.h">
+      <Filter>_Unit Test %28do not touch%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

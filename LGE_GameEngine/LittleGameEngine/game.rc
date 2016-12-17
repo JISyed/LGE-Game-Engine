@@ -1,0 +1,3 @@
+IDR_APP_ICON ICON "gameIcon.ico"
+GLUT_ICON ICON "gameIcon.ico"
+GLFW_ICON ICON "gameIcon.ico"

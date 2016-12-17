@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libraries">
+      <UniqueIdentifier>{29d70d1d-fcd1-4491-9aa9-f3184a4be105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW">
+      <UniqueIdentifier>{d1e99522-f419-4132-b372-6218cfbf1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\lib">
+      <UniqueIdentifier>{a836f45b-11c9-4492-9c60-f8dd52985ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\include">
+      <UniqueIdentifier>{49489779-46e9-4d54-b45e-93e51ba56c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6">
+      <UniqueIdentifier>{073ae4dc-977d-4832-b923-136da6fc1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\lib">
+      <UniqueIdentifier>{0cc57226-561b-483b-9687-954c2d7bc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\include\GL">
+      <UniqueIdentifier>{eeb82a3b-bd34-4089-9957-4b88a3e8af92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\include">
+      <UniqueIdentifier>{e2682268-f8f3-45ec-90c3-091dbd8e854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\include\GL">
+      <UniqueIdentifier>{16e516ee-b0bf-401c-96ac-fa3c9c0e2d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine">
+      <UniqueIdentifier>{7b93056e-51de-4918-aeab-e4b63aa93e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine\include">
+      <UniqueIdentifier>{e7310551-33de-4617-a804-01a19a901158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine\lib">
+      <UniqueIdentifier>{c265a469-836b-4cc8-aefc-38ec4dfdc2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File">
+      <UniqueIdentifier>{48874a06-b2fc-447e-990f-453f928b3b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File\include">
+      <UniqueIdentifier>{64db79a6-ad6b-46ea-8c79-55b1e26255c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File\lib">
+      <UniqueIdentifier>{bda2a8dc-1bbd-451a-8a6a-7c5d91f54293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Shaders">
+      <UniqueIdentifier>{c689ce01-e64e-4815-a5c4-fcba5473ef11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source">
+      <UniqueIdentifier>{d7b90243-bcd0-4026-8264-83aac53ff3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\EngineFoundation">
+      <UniqueIdentifier>{aeffb183-270c-41d3-9973-ebc721d44228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\EngineUtilities">
+      <UniqueIdentifier>{46495875-fa04-4462-9188-c33e9ee119c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GameObjectSystem">
+      <UniqueIdentifier>{44443720-c7a7-4544-8de4-9928f9f171b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GameObjectSystem\CustomBehaviors">
+      <UniqueIdentifier>{cbe5b33d-9faa-4451-b6ac-782b29fee199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem">
+      <UniqueIdentifier>{8d47e395-67fe-42e7-8fb6-f0ab1a80c132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\ShaderSystem">
+      <UniqueIdentifier>{ce03c91f-f945-4edb-b30f-31422f36c1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MeshSystem">
+      <UniqueIdentifier>{784a3205-0098-4a69-a233-dadc1668fa66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Renderers">
+      <UniqueIdentifier>{97a3b1d0-4f80-4e2e-8298-0061125b6e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\CameraSystem">
+      <UniqueIdentifier>{24a49144-a606-4fcd-b398-53a2da3869fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MaterialSystem">
+      <UniqueIdentifier>{2d353802-1e55-4a9d-bda3-72b9266a4d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MaterialSystem\PolygonMode">
+      <UniqueIdentifier>{133c27c0-1384-4694-8373-eb764a291aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Uniforms">
+      <UniqueIdentifier>{d5bca132-4d41-4c0d-bd30-5361d76d5593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\TextureSystem">
+      <UniqueIdentifier>{518dfccc-475b-447f-8e45-cc1728972b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Uniforms\UniformData">
+      <UniqueIdentifier>{6c7ef058-f25d-4496-8641-fcba1468aa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AbstractDataTypes">
+      <UniqueIdentifier>{be74cd2d-385a-4a4f-858a-e05a6d3dcce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AbstractDataTypes\List">
+      <UniqueIdentifier>{28a0a2cb-46bd-43d2-989d-857a4cb5a52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\InputSystem">
+      <UniqueIdentifier>{1c1c73cb-687c-4157-8660-836bf288d40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\PCS">
+      <UniqueIdentifier>{403a31aa-9d01-45f3-a577-31dddc957e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\CollisionSystem">
+      <UniqueIdentifier>{71488862-8ecb-4610-b573-445942e31e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\UnpackagerSystem">
+      <UniqueIdentifier>{495fdb1d-0d7b-4c56-91a5-171bb3a784c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\TimeSystem">
+      <UniqueIdentifier>{3fb1215e-5d09-4a49-9bc8-5697a5bcb71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AnimationSystem">
+      <UniqueIdentifier>{c2564f7f-927d-47c5-8f2d-7cf75c7bbcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AnimationSystem\Playback">
+      <UniqueIdentifier>{a762ea19-85d8-45b0-9322-5016a202446b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AnimationSystem\Data">
+      <UniqueIdentifier>{d3f62e05-ed2e-457c-8115-b50535e8afec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\UnpackagerSystem\GraphicsHeaders">
+      <UniqueIdentifier>{e49ea2ca-a189-4b48-9816-2730a87844cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\UnpackagerSystem\AnimationHeaders">
+      <UniqueIdentifier>{bd0c2f3a-75d4-4b12-a1fb-14c247a2a63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML">
+      <UniqueIdentifier>{b4327811-5014-4592-8ba7-89faa8809488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML\include">
+      <UniqueIdentifier>{23a1ee63-b909-4f9a-8415-87c4879127f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML\lib">
+      <UniqueIdentifier>{8e03987e-62ce-4d8e-bf7f-002bc55acdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML\include\contrib">
+      <UniqueIdentifier>{79d8c8fc-cc07-44be-88bb-48da21e79c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML\include\node">
+      <UniqueIdentifier>{5e22e225-372b-48ef-b07b-876ae92c0068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_YAML\include\node\detail">
+      <UniqueIdentifier>{549600e5-adb8-462e-9419-dba951b0248f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_YamlDataFiles">
+      <UniqueIdentifier>{810f87d9-f483-4ef6-a97f-af54d30ee854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_YamlDataFiles\Cameras">
+      <UniqueIdentifier>{2b34e10b-cce3-46f3-b8fc-840fb7e61d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_YamlDataFiles\Materials">
+      <UniqueIdentifier>{553d4406-af94-4e70-abde-5849f510c4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\YamlSystem">
+      <UniqueIdentifier>{98012cdd-afee-4518-9e32-6ad788d8349c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\YamlSystem\CustomConverters">
+      <UniqueIdentifier>{b25acf1f-1372-4ac9-9852-ce80b71ff8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\GpuProgramSystem">
+      <UniqueIdentifier>{ed3cf58d-e508-42c8-aa3a-3b193ab7f963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Shaders\GpuPrograms">
+      <UniqueIdentifier>{3ba8b054-e886-4ecd-9d52-a3d84efc317d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libraries\_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libraries\_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Debug.lib">
+      <Filter>_Libraries\_MathEngine\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Debug.lib">
+      <Filter>_Libraries\_File\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Release.lib">
+      <Filter>_Libraries\_File\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Release.lib">
+      <Filter>_Libraries\_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Release.lib">
+      <Filter>_Libraries\_MathEngine\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Release.lib">
+      <Filter>_Libraries\_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\YAML-CPP\lib\libyaml-cppmt.lib">
+      <Filter>_Libraries\_YAML\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\YAML-CPP\lib\libyaml-cppmtd.lib">
+      <Filter>_Libraries\_YAML\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EngineFoundation\Main.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineFoundation\Game.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineFoundation\Engine.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObject.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObjectBehavior.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\OrbitBehavior.cpp">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\SpinBehavior.cpp">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\Time.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Shader.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\IdGenerator.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ErrorShaderHelper.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Mesh.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MeshRenderer.cpp">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Camera.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Material.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonMode.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonModeFullFace.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonModeWireframe.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ShaderUniformHandle.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialUniform.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataMatrix.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataVect.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformData.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataFloat.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataInt.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataTextureUnit.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericList.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericListNode.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericListIterator.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Texture.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialTextureLink.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSystem\Keyboard.cpp">
+      <Filter>_Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSystem\Mouse.cpp">
+      <Filter>_Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\Screen.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\Transform.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraTransformAdapter.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSNode.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTree.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTreeForwardIterator.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTreeReverseIterator.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraManager.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ShaderRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\TextureRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MeshRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObjectManager.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\Color.cpp">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\SpheroidGenerator.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ImageBuffer.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraProjectionData.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionSystem\BoundingSphere.cpp">
+      <Filter>_Source\CollisionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnpackagerSystem\PackageChunkHeader.cpp">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnpackagerSystem\PackageHeader.cpp">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnpackagerSystem\ResourceUnpacker.cpp">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraController.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeSystem\Timer.cpp">
+      <Filter>_Source\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeSystem\Timer_win32.cpp">
+      <Filter>_Source\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeSystem\TimeUnit.cpp">
+      <Filter>_Source\TimeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationClip.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationClipSetter.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\KeyFrame.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationClipList.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\CString.cpp">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\JointHierarchyTable.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\JointNameTable.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationSkeleton.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationSet.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\NullMeshRenderer.cpp">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationJointLink.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationPlayback.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationJoint.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationClipPlayback.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationController.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationPlaybackList.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationSetRegistry.cpp">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataMatrixArray.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\YamlSystem\YamlCameraLoader.cpp">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\YamlSystem\YamlUtilities.cpp">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\YamlSystem\YamlMaterialLoader.cpp">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\GpuProgram.cpp">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\GpuBuffer.cpp">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\GpuBufferVao.cpp">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationSystem\AnimationMixPlayback.cpp">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extern_libs\GLFW\include\GL\glfw.h">
+      <Filter>_Libraries\_GLFW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\arcball.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\object.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ext.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ktx.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6mfile.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\shader.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\vmath.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\gl3w.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glcorearb.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glxext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\wglext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Align16.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Constants.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Enum.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\MathEngine.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Matrix.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Util.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Vect.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\Game.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\Engine.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObject.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObjectBehavior.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\OrbitBehavior.h">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\SpinBehavior.h">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\Time.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\FileLibrary\include\File.h">
+      <Filter>_Libraries\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Shader.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\IdGenerator.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ErrorShaderHelper.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Mesh.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MeshRenderer.h">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\IRenderable.h">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Camera.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Material.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonMode.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonModeFullFace.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonModeWireframe.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ShaderUniformHandle.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformNameHelper.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\enumTextureUnit.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialUniform.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformData.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataMatrix.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataVect.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataFloat.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataInt.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataTextureUnit.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericList.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericListNode.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericListIterator.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Texture.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialTextureLink.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\Keyboard.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\Mouse.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\enumKey.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\enumMouseButton.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\Screen.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\Transform.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraTransformAdapter.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSNode.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTree.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeForwardIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeReverseIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraManager.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\ResourseRegistry.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ShaderRegistry.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\TextureRegistry.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MeshRegistry.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialRegistry.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObjectManager.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\Color.h">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\SpheroidGenerator.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ImageBuffer.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraProjectionData.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollisionSystem\BoundingSphere.h">
+      <Filter>_Source\CollisionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\PackageChunkHeader.h">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\enumTexelFormat.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MeshFileHeader.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\VertexData.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\TriangleData.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\PackageHeader.h">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\ResourceUnpacker.h">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\enumPackageChunkType.h">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\enumUseUnpackerType.h">
+      <Filter>_Source\UnpackagerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraController.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\MathApp.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Quat.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\QuatApp.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\VectApp.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeSystem\Timer.h">
+      <Filter>_Source\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeSystem\TimeUnit.h">
+      <Filter>_Source\TimeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationClip.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationClipSetter.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationJoint.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\KeyFrame.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationClipList.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\CString.h">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\JointHierarchyTable.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\JointNameTable.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationSkeleton.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationSet.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\NullMeshRenderer.h">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationJointLink.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationPlayback.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationClipPlayback.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationController.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationPlaybackList.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\EboHeader.h">
+      <Filter>_Source\UnpackagerSystem\GraphicsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\TextureHeader.h">
+      <Filter>_Source\UnpackagerSystem\GraphicsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\VboHeader.h">
+      <Filter>_Source\UnpackagerSystem\GraphicsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationSetRegistry.h">
+      <Filter>_Source\AnimationSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\Str64.h">
+      <Filter>_Source\UnpackagerSystem\AnimationHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\AnimationHeader.h">
+      <Filter>_Source\UnpackagerSystem\AnimationHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnpackagerSystem\ClipHeader.h">
+      <Filter>_Source\UnpackagerSystem\AnimationHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataMatrixArray.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\anchor.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\binary.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\dll.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitfromevents.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitter.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitterdef.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emittermanip.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\emitterstyle.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\eventhandler.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\exceptions.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\mark.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\noncopyable.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\null.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\ostream_wrapper.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\parser.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\stlemitter.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\traits.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\yaml.h">
+      <Filter>_Libraries\_YAML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\contrib\anchordict.h">
+      <Filter>_Libraries\_YAML\include\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\contrib\graphbuilder.h">
+      <Filter>_Libraries\_YAML\include\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\convert.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\emit.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\impl.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\iterator.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\node.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\parse.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\ptr.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\type.h">
+      <Filter>_Libraries\_YAML\include\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\bool_type.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\impl.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\iterator.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\iterator_fwd.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\memory.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_data.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_iterator.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\YAML-CPP\include\yaml-cpp\node\detail\node_ref.h">
+      <Filter>_Libraries\_YAML\include\node\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\enumUseYamlType.h">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlVector4Converter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlCameraLoader.h">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlUtilities.h">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlMaterialLoader.h">
+      <Filter>_Source\YamlSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlMaterialNameConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlPolygonModeTypeConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlShaderNameConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlUniformNameConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlUniformTypeConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YamlSystem\YamlTextureNameConverter.h">
+      <Filter>_Source\YamlSystem\CustomConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\GpuProgram.h">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\GpuBuffer.h">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\GpuBufferVao.h">
+      <Filter>_Source\GraphicsSystem\GpuProgramSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimationSystem\AnimationMixPlayback.h">
+      <Filter>_Source\AnimationSystem\Playback</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\vertRainbow.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\vertRainbow.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="src\GraphicsSystem\GraphicsSystemDiagram.cd">
+      <Filter>_Source\GraphicsSystem</Filter>
+    </None>
+    <None Include="res\shaders\constantColor.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantColor.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantTexture.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantTexture.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\diffuseTexturePointLight.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\diffuseTexturePointLight.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\blinnPhongColor.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\blinnPhongColor.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureDiffuse.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureDiffuse.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureSpecular.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureSpecular.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\skinnedTextureLight.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\skinnedTextureLight.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\cameras\lge_all_cameras.yml">
+      <Filter>_YamlDataFiles\Cameras</Filter>
+    </None>
+    <None Include="res\materials\mat_astroboy.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_buggy.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_duckweed.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_humanoid.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_mario_ground.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_rocks.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_shiny_phong.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_space_frigate.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_teddy_bear.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_vertex_rainbow.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_warbear_brown.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\materials\mat_warbear_polar.yml">
+      <Filter>_YamlDataFiles\Materials</Filter>
+    </None>
+    <None Include="res\shaders\mixer.ps.glsl">
+      <Filter>_Shaders\GpuPrograms</Filter>
+    </None>
+    <None Include="res\shaders\jointToLocalMat.ps.glsl">
+      <Filter>_Shaders\GpuPrograms</Filter>
+    </None>
+    <None Include="res\shaders\localToGlobalMat.ps.glsl">
+      <Filter>_Shaders\GpuPrograms</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+</Project>
