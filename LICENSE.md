@@ -1,4 +1,4 @@
-**Notice:** *LGE uses 3rd party libraries and resources that are NOT covered in this license. 
+**Notice:** *LGE uses 3rd party libraries and resources that are NOT covered in this license (because I did not make them). 
 They include:*
 
  - *Art assets in the `/ConvertersDemo` and `/LittleGameEngine/res` folder*
